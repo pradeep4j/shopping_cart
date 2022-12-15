@@ -1,0 +1,8 @@
+{
+        "name": "mern_shppingcart",
+        "integrations": {
+          "capacitor": {}
+        },
+        "type": "react"
+      }
+      

@@ -1,0 +1,137 @@
+.mystyle{
+  display:none;
+}
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
+.fonts {
+  color: white;
+  background-color: rgb(41, 133, 212);
+}
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  /*background: yellow;*/
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+.landing {
+
+  background-color: #b7cec9 ;
+	/*background: url("./landing.jpg") no-repeat center 80% / cover;*/
+	height: 150vh;
+}
+.bag-quantity1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 430px;
+  width: 209px;
+  border-radius: 8%;
+  background: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+.bag-quantity2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  /*border-radius: 50%;
+  background: yellow;*/
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+.border {
+  border-color: 'red';
+}
+.landing {
+  display: flex;
+  position: relative;
+  background-color: #e7f1ef;
+	background: url("./landing.jpg");
+	height: 100vh;
+  margin: 0 0 0 0;
+}
+/* for the cart badge on Navbar css start */
+#ex4 .p1[data-count]:after{
+  position:absolute;
+  right:25%;
+  top:6%;
+  width: 1em;
+  content: attr(data-count);
+  font-size:45%;
+  padding:.2em;
+  border-radius:50%;
+  border: 1px solid rgb(255,0,0,.85);
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  font-weight: bold;
+  min-width: 1.5em;
+
+}
+/* for the cart badge on Navbar css end */
+
+/* for the checkout status css start */
+.status-bar {
+  width: max-content;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 1em auto 0 auto;
+}
+
+.status-checkpoint {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0;
+}
+
+.status-checkpoint .circle {
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 50%;
+  border: 0.2em solid #2c3e50;
+}
+
+.status-bar .connection {
+  align-self: flex-start;
+  border-top: 1px solid #95a5a6;
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+  width: 6rem;
+}
+
+.status-bar a.nav-link {
+  padding: 0;
+}
+
+@media screen and (max-width: 430px) {
+  .status-bar {
+      width: auto;
+      justify-content: space-between;
+  }
+
+  .status-bar .connection {
+      display: none;
+  }
+
+}
+/* for the checkout status css ends */
+

@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.mern_shppingcart",
+  "appName": "mern_shppingcart",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
